@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "TaklaToon: Play sandbox", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run.py", "args": ["play"], "console": "integratedTerminal", "cwd": "${workspaceFolder}", "justMyCode": true},
+    {"name": "TaklaToon: Meeting demo (scripted, not AI)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run.py", "args": ["play", "--autoplay"], "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "TaklaToon: Collect 5 random episodes", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run.py", "args": ["collect", "--episodes", "5", "--randomize"], "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "TaklaToon: Validate environment", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run.py", "args": ["check"], "console": "integratedTerminal", "cwd": "${workspaceFolder}"}
+  ]
+}
+

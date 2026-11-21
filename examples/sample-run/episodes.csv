@@ -1,0 +1,4 @@
+episode_id,seed,steps,return,outcome,success,terminated,truncated,policy
+0,42,98,105.29496529328688,success,True,True,False,scripted
+1,43,98,105.29496529328688,success,True,True,False,scripted
+2,44,98,105.29496529328688,success,True,True,False,scripted

@@ -1,0 +1,47 @@
+{
+  "schema_version": "taklatoon.transitions.v1",
+  "created_utc": "2026-11-21T09:08:53.105603+00:00",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "policy": "scripted",
+  "versions": {
+    "taklatoon": "0.1.0",
+    "pygame": "2.6.1",
+    "pymunk": "7.3.1",
+    "gymnasium": "1.4.0",
+    "numpy": "2.5.5"
+  },
+  "observation_names": [
+    "x",
+    "y",
+    "vx",
+    "vy",
+    "grounded",
+    "goal_dx",
+    "goal_dy",
+    "jump_held",
+    "target_hold_fraction",
+    "platform_0_left_dx",
+    "platform_0_right_dx",
+    "platform_0_top_dy",
+    "platform_0_mask",
+    "platform_1_left_dx",
+    "platform_1_right_dx",
+    "platform_1_top_dy",
+    "platform_1_mask",
+    "platform_2_left_dx",
+    "platform_2_right_dx",
+    "platform_2_top_dy",
+    "platform_2_mask"
+  ],
+  "actions": {
+    "IDLE": 0,
+    "LEFT": 1,
+    "RIGHT": 2,
+    "JUMP": 3,
+    "LEFT_JUMP": 4,
+    "RIGHT_JUMP": 5
+  },
+  "state_units": "Normalized features; see OBSERVATIONS.md. Physics uses px, s, px/s.",
+  "hidden_values": "evaluator.jsonl is operator-only; do not feed it into an agent."
+}
